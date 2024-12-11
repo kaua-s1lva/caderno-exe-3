@@ -37,6 +37,17 @@ public class OrdenacaoVetorPresenter {
                 }
             }
         });
+
+        this.view.getBtnOrdenar().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    ordenar();
+                } catch (Exception ex) {
+                    JOptionPane.showMessageDialog(null, ex.getMessage());
+                }
+            }
+        });
    /*
         this.view.getBtnCancelar().addActionListener(new ActionListener() {
             @Override
@@ -62,5 +73,11 @@ public class OrdenacaoVetorPresenter {
         for (String linha : conteudo.getRegistros()) {
             modeloSemOrdem.addElement(linha);
         }
+    }
+
+    private void ordenar() {
+        String metodo = view.getCmbMetodo().getSelectedItem().toString();
+
+        System.out.println(metodo);
     }
 }
