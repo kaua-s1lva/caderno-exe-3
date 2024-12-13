@@ -4,7 +4,6 @@
 
 package com.mycompany.questao_3;
 
-import com.mycompany.questao_3.model.ConteudoArquivo;
 import com.mycompany.questao_3.presenter.OrdenacaoVetorPresenter;
 
 /**
@@ -14,7 +13,6 @@ import com.mycompany.questao_3.presenter.OrdenacaoVetorPresenter;
 public class Principal {
 
     public static void main(String[] args) {
-        //ConteudoArquivo conteudo = new ConteudoArquivo();
         new OrdenacaoVetorPresenter();
     }
 }

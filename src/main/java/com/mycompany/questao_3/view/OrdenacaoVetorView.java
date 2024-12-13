@@ -42,7 +42,7 @@ public class OrdenacaoVetorView extends javax.swing.JFrame {
         jRadioButton2 = new javax.swing.JRadioButton();
         btnOrdenar = new javax.swing.JButton();
         btnCarregarArquivo = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
+        lblTempo = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         lstSemOrdem = new javax.swing.JList<>();
         jScrollPane4 = new javax.swing.JScrollPane();
@@ -68,7 +68,7 @@ public class OrdenacaoVetorView extends javax.swing.JFrame {
 
         btnCarregarArquivo.setText("Carregar do arquivo...");
 
-        jLabel5.setText("Tempo: 5ms");
+        lblTempo.setText("Tempo: 5ms");
 
         jScrollPane2.setViewportView(lstSemOrdem);
 
@@ -102,7 +102,7 @@ public class OrdenacaoVetorView extends javax.swing.JFrame {
                         .addComponent(btnCarregarArquivo)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel5)
+                    .addComponent(lblTempo)
                     .addComponent(jLabel3)
                     .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(50, 50, 50))
@@ -133,7 +133,7 @@ public class OrdenacaoVetorView extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnCarregarArquivo)
-                    .addComponent(jLabel5))
+                    .addComponent(lblTempo))
                 .addContainerGap(19, Short.MAX_VALUE))
         );
 
@@ -183,11 +183,11 @@ public class OrdenacaoVetorView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JLabel lblTempo;
     private javax.swing.JList<String> lstOrdenados;
     private javax.swing.JList<String> lstSemOrdem;
     // End of variables declaration//GEN-END:variables
@@ -220,8 +220,8 @@ public class OrdenacaoVetorView extends javax.swing.JFrame {
         return jLabel4;
     }
 
-    public JLabel getjLabel5() {
-        return jLabel5;
+    public JLabel getLblTempo() {
+        return lblTempo;
     }
 
     public JRadioButton getjRadioButton1() {

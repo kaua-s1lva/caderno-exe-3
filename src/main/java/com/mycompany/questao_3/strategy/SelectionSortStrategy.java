@@ -2,7 +2,7 @@ package com.mycompany.questao_3.strategy;
 
 import com.mycompany.questao_3.model.ConteudoArquivo;
 
-public class BubbleSortStrategy implements IMetodoOrdenacaoStrategy {
+public class SelectionSortStrategy implements IMetodoOrdenacaoStrategy {
     private long tempoExecucao;
 
     @Override

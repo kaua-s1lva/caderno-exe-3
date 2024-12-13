@@ -1,7 +1,6 @@
 package com.mycompany.questao_3.model;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class ConteudoArquivo {
@@ -16,6 +15,6 @@ public class ConteudoArquivo {
     }
 
     public List<String> getRegistros() {
-        return Collections.unmodifiableList(registros);
+        return registros;
     }
 }
